@@ -113,7 +113,7 @@ client.on('message', msg => {
   }
 });
 client.on('message', msg => {
-  if (msg.content.toLowerCase() === '?site') {
+  if (msg.content.toLowerCase() === '+site') {
     msg.reply('** :white_check_mark:Sitemiz:http://robloxbot.cf/wp/ :white_check_mark: ** ');
   }
 });
