@@ -117,6 +117,11 @@ client.on('message', msg => {
     msg.reply('** :white_check_mark:Sitemiz:http://robloxbot.cf/wp/ :white_check_mark: ** ');
   }
 });
+client.on('message', msg => {
+  if (msg.content.toLowerCase() === 'as') {
+    msg.reply('Selamun, Aleyküm  Hoşgeldin :D');
+  }
+});
 
 
 
